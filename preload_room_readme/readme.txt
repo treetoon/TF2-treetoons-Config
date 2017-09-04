@@ -1,0 +1,1 @@
+place in the map folder for use with yttrium viewmodels
