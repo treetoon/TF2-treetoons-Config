@@ -1,0 +1,1 @@
+without yttriums comp viewmodels, these settings can be used
