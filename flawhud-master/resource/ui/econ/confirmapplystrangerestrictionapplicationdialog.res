@@ -12,7 +12,7 @@
 		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"PanelBorder"
+		"border"				"WhiteBorder"
 	}
 
 	"mouseoveritempanel"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -119,6 +119,7 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}	
 	"SubjectBG"
@@ -172,7 +173,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
+		"font"			"CodeLC12"
 		"labelText"		"#ToolStrangeRestrictionApplyConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -184,7 +185,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 
 	"CancelButton"
@@ -202,7 +203,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -227,7 +228,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

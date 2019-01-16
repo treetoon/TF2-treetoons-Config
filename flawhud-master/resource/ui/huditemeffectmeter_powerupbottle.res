@@ -5,13 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-235"
+		"xpos"			"192"
 		"ypos"			"r33"
 		"wide"			"42"
 		"tall"			"29"
 		"MeterFG"		"TanLight"
-		"MeterBG"		"Gray"
-		"bgcolor_override"	"DarkGrey"
+		"MeterBG"		"DarkGrey"
 	}
 	
 	"PowerupBG"
@@ -27,7 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"DarkGrey"
+		"fillcolor"		"HudBlack"
 	}
 
 	"ItemEffectIcon"
@@ -69,19 +68,19 @@
 	
 	"CanteenLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CanteenLabel"
-		"font"			"LightGravity12"
-		"fgcolor"		"Black"
-		"xpos"			"4"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"60"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"west"	
-		"labelText"		"Powerups"
+		"ControlName"			"CExLabel"
+		"fieldName"				"CanteenLabel"
+		"font"					"LightGravity12"
+		"fgcolor"				"Black"
+		"xpos"					"4"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"60"
+		"tall"					"20"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"west"	
+		"labelText"				"Powerups"
 	}
 
 	"ItemEffectMeter"
@@ -111,7 +110,7 @@
 		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"16"
-		"tall"					"19"	
+		"tall"					"19"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -120,7 +119,6 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"G_FontMedium"
-		"fgcolor"				"Yellow"
+		"font"					"CodeBold22"
 	}
 }

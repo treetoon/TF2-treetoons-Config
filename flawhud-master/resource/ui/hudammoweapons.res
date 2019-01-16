@@ -4,42 +4,22 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
-		"xpos"			"4"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"
+		"xpos"			"9999"
 	}
-
+	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"
 	}
-
+	
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"G_FontHuge"
-		"fgcolor"		"G_AmmoClipValue"
+		"font"			"CodeBold50"
+		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"5"
@@ -49,15 +29,15 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
-	}		
+	}
 	"AmmoInClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"G_FontHuge"
+		"font"			"CodeBold50"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"2"
-		"ypos"			"32"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"70"
 		"tall"			"42"
@@ -65,14 +45,18 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%Ammo%"
+		
+		"pin_to_sibling"		"AmmoInClip"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"G_FontMedium"
-		"fgcolor"		"G_AmmoClipValue"
+		"font"			"CodeBold22"
+		"fgcolor"		"White"
 		"xpos"			"75"
 		"ypos"			"38"
 		"zpos"			"7"
@@ -82,15 +66,15 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"76"
-		"ypos"			"39"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"7"
 		"wide"			"42"
 		"tall"			"27"
@@ -98,14 +82,18 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%AmmoInReserve%"
+		
+		"pin_to_sibling"		"AmmoInReserve"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"AmmoNoClip"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"G_FontHuge"
-		"fgcolor"		"G_AmmoNoClipValue"
+		"font"			"CodeBold50"
+		"fgcolor"		"White"
 		"xpos"			"10"
 		"ypos"			"30"
 		"zpos"			"5"
@@ -115,15 +103,15 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
-	}	
+	}
 	"AmmoNoClipShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"G_FontHuge"
+		"font"			"CodeBold50"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"12"
-		"ypos"			"32"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"42"
@@ -131,22 +119,9 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%Ammo%"
-	}
-	"LowAmmoBG"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"LowAmmoBG"
-		"xpos"			"10"
-		"ypos"			"29"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"43"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"defaultbgcolor_override"	"Blank"
-		"PaintBackgroundType"	"0"
-        "textinsety" 	"99"
+		
+		"pin_to_sibling"		"AmmoNoClip"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

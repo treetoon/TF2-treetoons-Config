@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"DarkGrey"
 	}
-
+	
 	"MainBackground"
 	{
 		"ControlName"	"ImagePanel"
@@ -25,7 +25,7 @@
 		"enabled"		"0"
 		"image"			"../console/background_upward"
 		"scaleImage"	"1"
-	}	
+	}
 
 	"MainBG"
 	{
@@ -37,10 +37,10 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/background_upward_widescreen"
+		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 	}
-
+	
 	"MapInfo"
 	{
 		"ControlName"	"EditablePanel"
@@ -63,23 +63,23 @@
 			"tall"			"480"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../console/background_upward_widescreen"
+			"image"			"../console/background_upward"
 			"scaleImage"	"1"
 		}
 		
 		"InfoBG"
 		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"InfoBG"
-			"xpos"				"9999"
-			"ypos"				"9999"
-			"wide"				"0"
-			"tall"				"0"
-			"autoResize"		"0"
-			"pinCorner"			"0"
-			"visible"			"0"
-			"enabled"			"0"
-			"bgcolor_override"	"0 0 0 0"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"InfoBG"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"bgcolor_override"	"Transparent"
 		}
 
 		"Title"
@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MapAuthors"
-			"font"			"G_FontTiny_2"
+			"font"			"CodeLC8"
 			"labelText"		"%authors%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -143,7 +143,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"G_FontSmall"
+		"font"			"CodeBold14"
 		"labelText"		"#LoadingMap"
 		"textAlignment"	"center"
 		"xpos"			"9999"
@@ -161,25 +161,25 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadingLabel"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"labelText"		"Loading..."
 		"textAlignment"	"west"
 		"xpos"			"10"
-		"ypos"			"0"
+		"ypos"			"455"
 		"zpos"			"0"
 		"wide"			"350"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "White"
 	}	
 	"MapLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"G_FontBig"
+		"font"			"CodeBold37"
 		"labelText"		"%maplabel%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -197,7 +197,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"G_FontSmall"
+		"font"			"CodeBold14"
 		"labelText"		"%maptype%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -241,14 +241,14 @@
 		"NonInteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"	"NonInteractiveHeaders"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"2"
-			"wide"		"f0"
-			"tall"		"480"
-			"visible"	"1"
-			"enabled"	"1"
+			"fieldName"		"NonInteractiveHeaders"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
 	
 			"BarChartLabelA"
 			{
@@ -300,9 +300,9 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-			}				
+			}
 		}
-		"InteractiveHeaders"	
+		"InteractiveHeaders"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"InteractiveHeaders"
@@ -387,23 +387,23 @@
 			"pinCorner"			"0"
 			"visible"			"0"
 			"enabled"			"0"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 		}
 		"AveragesLabel"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"AveragesLabel"
-			"font"			"LightGravity24"
-			"labelText"		"#StatSummary_Label_PerformanceReport"
-			"textAlignment"	"west"
-			"xpos"			"c-285"
-			"ypos"			"185"
-			"wide"			"300"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"ControlName"		"Label"
+			"fieldName"			"AveragesLabel"
+			"font"				"LightGravity24"
+			"labelText"			"#StatSummary_Label_PerformanceReport"
+			"textAlignment"		"west"
+			"xpos"				"c-285"
+			"ypos"				"185"
+			"wide"				"300"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"1"
+			"enabled"			"1"
 		}
 		"ClassBarBG1A"
 		{
@@ -608,7 +608,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel2B"
 		{
 			"ControlName"	"Label"
@@ -727,7 +727,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}				
+		}
 		"ClassBarLabel3B"
 		{
 			"ControlName"	"Label"
@@ -1488,7 +1488,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override"		"Transparent"
 		}
 		"RecordsLabel1"
 		{
@@ -2083,7 +2083,7 @@
 		"enabled"		"0"
 		"wrap"			"1"
 	}
-	"NextTipButton"
+	"NextTipButton" [$WIN32]
 	{
 		"ControlName"	"Button"
 		"fieldName"		"NextTipButton"
@@ -2103,7 +2103,7 @@
 		"brighttext"	"0"
 		"Command"		"nexttip"
 	}
-	"ResetStatsButton"
+	"ResetStatsButton" [$WIN32]
 	{
 		"ControlName"	"Button"
 		"fieldName"		"ResetStatsButton"
@@ -2123,7 +2123,7 @@
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
 	}
-	"CloseButton"
+	"CloseButton" [$WIN32]
 	{
 		"ControlName"	"Button"
 		"fieldName"		"CloseButton"

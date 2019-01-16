@@ -19,16 +19,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_red"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	
 	"Icon"
@@ -43,7 +37,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"NotBuiltPanel"
@@ -55,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -85,7 +79,7 @@
 		"wide"			"160"
 		"tall"			"43"
 		"visible"		"0"
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -103,7 +97,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-
+		
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -113,7 +107,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -141,7 +135,7 @@
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -151,7 +145,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+		
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -174,7 +168,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"White"
 			}
 			
 			"TargetHealth"

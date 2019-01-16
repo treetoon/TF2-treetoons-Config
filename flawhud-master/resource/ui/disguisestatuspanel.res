@@ -16,9 +16,8 @@
 		"useparentbg"	"1"
 		"fov"			"54"
 		"start_framed"	"1"
-
 		"disable_manipulation"	"1"
-
+		
 		"model"
 		{
 			"angles_x"		"10"
@@ -26,7 +25,7 @@
 			"angles_z"		"0"
 		}
 	}
-
+	
 	"DisguiseStatusBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -35,7 +34,51 @@
 		"ypos"			"36"
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"			"2"
+		"tall"			"4"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"				"../hud/color_panel_brown"
+		"teambg_1"			"../hud/color_panel_brown"
+		"teambg_2"			"../hud/color_panel_red"
+		"teambg_3"			"../hud/color_panel_blu"
+		"paintborder"		"1"
+		"border"			"G_TargetBorder"
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
+	}
+	
+	"ShadedBar"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ShadedBar"
+		"xpos"				"0"
+		"ypos"				"12"
+		"zpos"				"-2"
+		"wide"				"198"
+		"tall"				"30"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"	
+		"fillcolor"			"HUDBlack"
+		"PaintBackgroundType"	"0"
+	}
+	
+	"DisguiseStatusBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"DisguiseStatusBG"
+		"xpos"			"0"
+		"ypos"			"36"
+		"zpos"			"-1"
+		"wide"			"640"
+		"tall"			"4"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -52,14 +95,14 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"	
 	}
-
+	
 	"DisguiseNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabel"
 		"font"				"LightGravity12"
-		"xpos"				"45"
-		"ypos"				"11"
+		"xpos"				"47"
+		"ypos"				"15"
 		"zpos"				"1"
 		"wide"				"115"
 		"tall"				"14"
@@ -73,14 +116,14 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"DisguiseNameLabelShadow"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"DisguiseNameLabelShadow"
 		"font"				"LightGravity12"
-		"xpos"				"46"
-		"ypos"				"12"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"1"
 		"wide"				"115"
 		"tall"				"14"
@@ -93,15 +136,19 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
+		
+		"pin_to_sibling"		"DisguiseNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"WeaponNameLabel"
-	{	
+	{
 		"ControlName"		"Label"
 		"fieldName"			"WeaponNameLabel"
-		"font"				"LightGravity10"
-		"xpos"				"45"
-		"ypos"				"24"
+		"font"				"LightGravity8"
+		"xpos"				"47"
+		"ypos"				"25"
 		"zpos"				"1"
 		"wide"				"115"
 		"tall"				"12"
@@ -115,40 +162,43 @@
 		"brighttext"		"0"
 		"fgcolor_override"	"White"
 	}
-
+	
 	"WeaponNameLabelShadow"
-	{	
-		"ControlName"	"Label"
-		"fieldName"		"WeaponNameLabelShadow"
-		"font"			"LightGravity10"
-		"xpos"			"46"
-		"ypos"			"25"
-		"zpos"			"1"
-		"wide"			"115"
-		"tall"			"12"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%weaponname%"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+	{
+		"ControlName"		"Label"
+		"fieldName"			"WeaponNameLabelShadow"
+		"font"				"LightGravity8"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"1"
+		"wide"				"115"
+		"tall"				"12"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%weaponname%"
+		"textAlignment"		"west"
+		"dulltext"			"0"
+		"brighttext"		"0"
 		"fgcolor_override"	"ShadowBlack"
+		
+		"pin_to_sibling"		"WeaponNameLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
-
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"SpectatorGUIHealth"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"17"
 		"wide"				"44"
-		"tall"				"30"
+		"tall"				"24"
 		"visible"			"1"
-		"enabled"			"1"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
+		"enabled"			"1"
+		"HealthDeathWarning"		"0.49"
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"

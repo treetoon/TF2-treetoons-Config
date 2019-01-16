@@ -15,12 +15,12 @@
 		"enabled"		"1"
 		"fillcolor"		"HudBlack"
 	}
-
+	
 	"CurrencyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyLabel"
-		"font"			"G_FontSmall_2"
+		"font"			"CodeLC10"
 		"fgcolor"		"White"
 		"xpos"			"4"
 		"ypos"			"0"
@@ -32,12 +32,12 @@
 		"textAlignment"	"west"	
 		"labelText"		"Currency"
 	}
-
+	
 	"Currency"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"G_FontTiny"
+		"font"			"CodeBold12"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"47"
 		"ypos"			"0"

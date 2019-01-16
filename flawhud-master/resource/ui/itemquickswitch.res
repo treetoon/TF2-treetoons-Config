@@ -14,14 +14,12 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"HudBlack"
+		"bgcolor_override"		"HudBlack"
+		"itempanel_xpos"		"0"
+		"itempanel_ydelta"		"0"
 		
-		"itempanel_xpos"	"0"
-		"itempanel_ydelta"	"0"
-		
-		"itemskv"	
+		"itemskv"
 		{
 			"wide"			"205"
 			"tall"			"35"
@@ -30,73 +28,44 @@
 			"paintbackground"	"0" 			
 			"paintborder"	"0"
 			"text_forcesize" "2"
-			
 			"model_xpos"	"0"
 			"model_ypos"	"0"
-			"model_wide"	"58"		
+			"model_wide"	"58"
 			"model_tall"	"34"
-			
 			"text_center"	"1"
 			"text_xpos"		"50"
 			"text_wide"		"160"
 			"name_only"		"1"
-			
 			"noitem_textcolor"		"117 107 94 255"
 		}
 	}
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"labelText"		">>"
-		"textAlignment"	"west"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor_override" "200 80 60 255"
 	}
+
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"LightGravity18"
-		"labelText"		"#ClassBeingEquipped"
-		"textAlignment"	"west"
-		"xpos"			"5"
-		"ypos"			"5"
-		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"9999"
 	}
 
 	"ItemSlotLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"LightGravity12"
-		"labelText"		"#PrimaryWeapon"
-		"textAlignment"	"center"
-		"xpos"			"80"
-		"ypos"			"7"
-		"zpos"			"1"
-		"wide"			"140"
-		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"9999"
+	}
+	
+	"NoItemsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NoItemsLabel"
+		"xpos"			"9999"
 	}
 	
 	"TopLine"
@@ -157,25 +126,6 @@
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
 		}
-	}
-	
-	"NoItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoItemsLabel"
-		"font"			"ItemFontNameSmallest"
-		"labelText"		"#NoItemsToEquip"
-		"textAlignment"	"center"
-		"xpos"			"3"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"220"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
 	}
 	
 	"loadout_preset_panel"

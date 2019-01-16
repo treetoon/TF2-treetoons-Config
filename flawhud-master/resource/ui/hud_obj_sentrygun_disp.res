@@ -14,23 +14,17 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-
+	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
 	}
-
+	
 	"Icon_Sentry_1"
 	{
 		"ControlName"	"CIconPanel"
@@ -43,9 +37,9 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
-
+	
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -55,7 +49,7 @@
 		"wide"			"160"
 		"tall"			"20"
 		"visible"		"1"
-
+		
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -75,7 +69,7 @@
 			"brighttext"	"0"
 		}
 	}
-
+	
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -99,9 +93,9 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
-
+		
 		"AlertTray"
 		{
 			"ControlName"	"CBuildingStatusAlertTray"
@@ -129,9 +123,9 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
-
+		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -145,9 +139,9 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
-
+		
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
@@ -165,7 +159,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"	
 		}
-
+		
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -175,7 +169,7 @@
 			"wide"			"100"
 			"tall"			"30"
 			"visible"		"0"
-
+			
 			"BuildingLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -194,7 +188,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-
+			
 			"BuildingProgress"
 			{	
 				"ControlName"	"ContinuousProgressBar"
@@ -213,7 +207,7 @@
 				"brighttext"	"0"
 			}
 		}
-
+		
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -224,7 +218,7 @@
 			"tall"			"20"
 			"visible"		"0"
 			
-			"KillIcon"	
+			"KillIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"KillIcon"
@@ -259,7 +253,7 @@
 				"brighttext"	"0"
 			}
 
-			"ShellIcon"	
+			"ShellIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"ShellIcon"
@@ -274,7 +268,7 @@
 				"image"			"../hud/hud_obj_status_ammo_64"
 				"drawcolor"		"ProgressOffWhite"
 			}
-
+			
 			"Shells"
 			{	
 				"ControlName"	"ContinuousProgressBar"
@@ -283,7 +277,7 @@
 				"xpos"			"12"
 				"ypos"			"7"
 				"wide"			"38"
-				"tall"			"8"				
+				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

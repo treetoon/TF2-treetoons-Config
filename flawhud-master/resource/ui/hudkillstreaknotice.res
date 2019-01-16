@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"c-250"
-		"ypos"			"50"
+		"ypos"			"90"
 		"zpos"			"0"
 		"wide"			"500"
 		"tall"			"50"
@@ -13,14 +13,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 127"	
+		"bgcolor_override"		"HudBlack"
 	}
 	
 	"SplashLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SplashLabel"
-		"font"			"HudFontSmallestBold"
+		"font_override"	"CodeLC10"
 		"labelText"		""
 		"textAlignment" "center"
 		"xpos"			"c-250"

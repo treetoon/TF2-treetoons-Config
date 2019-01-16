@@ -12,7 +12,7 @@
 		"bgcolor_override"		"DarkerGrey"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"PanelBorder"
+		"border"				"WhiteBorder"
 	}
 
 	"mouseoveritempanel"
@@ -28,7 +28,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"		"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -111,14 +111,16 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+			"inventory_image_type"	"1"
 		}
 	}	
 	"SubjectBG"
@@ -161,18 +163,19 @@
 		"text_ypos"		"100"		// Hide it off the bottom
 		"text_center"	"1"
 		"name_only"		"1"
+		
 		"itemmodelpanel"
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
+	}
 	
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ConfirmLabel"
-		"font"			"HudFontSmall"
+		"font"			"CodeLC12"
 		"labelText"		"#ToolStrangePartApplyConfirm"
 		"textAlignment"	"center"
 		"xpos"			"20"
@@ -184,7 +187,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 
 	"CancelButton"
@@ -202,7 +205,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -227,7 +230,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

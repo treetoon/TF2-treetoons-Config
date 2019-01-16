@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,9 +28,9 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"Hudblack"
+		"fillcolor"		"HudBlack"
 	}
-
+	
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"White"
 	}
 	
@@ -65,7 +65,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"G_FontSmall_2"
+		"font"			"CodeLC10"
 		"fgcolor"		"White"
 	}	
 	
@@ -105,31 +105,9 @@
 
 	"MapInfoContinue"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"CTFButton"
 		"fieldName"		"MapInfoContinue"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		""
-		"textAlignment"	"center"
-		"dulltext"		"1"
-		"brighttext"	"1"
-		"command"		"continue"
-		"default"		"1"
-		"font"			"Blank"
-		"paintbackground"	"0"
-		
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "White"
 	}
 
 	"MapInfoContinue2"
@@ -151,14 +129,14 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"LightGravity12"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "White"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MapInfoWatchIntro"
@@ -166,28 +144,6 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_WatchIntro"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"intro"
-		"default"		"1"
-		"font"			"LightGravity12"
-		"paintbackground"	"0"
-		
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "White"
 	}
 
 	"MapInfoBack"
@@ -195,27 +151,6 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Back"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"back"
-		"font"			"LightGravity12"
-		"paintbackground"	"0"
-		
-		"fgcolor"			"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "0 200 255 255"
-		"depressedFgColor_override" "0 200 255 255"
-		"selectedFgColor_override" "White"
 	}
 	
 	"MapInfoBack2"
@@ -236,44 +171,21 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"LightGravity12"
+		"font"			"CodeBold14"
 		"paintbackground"	"0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "White"
+		"fgcolor"					"White"
+		"defaultFgColor_override" 	"White"
+		"armedFgColor_override" 	"TanDark"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" "White"
+		"selectedFgColor_override" 	"TanDark"
 	}
 	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_welcome01_screen.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
-			"origin_y" "0"
-			"origin_z" "-39"
-		}
 	}
 
 	"ShadedBar"
@@ -281,17 +193,5 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
 	}
 }

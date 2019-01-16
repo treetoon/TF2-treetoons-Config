@@ -118,7 +118,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"CodeBold14"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -131,8 +131,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-		}		
-				
+		}
+		
 		// Scrollable editable panel for right-hand side of preview, for all text details
 		"DetailsView"
 		{
@@ -145,7 +145,7 @@
 			"tall"			"201"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Transparent"
 			"skip_autoresize"	"1"
 			"autoresize"		"0"
 			
@@ -160,13 +160,10 @@
 				"tall"			"222"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"	"0 0 0 0"
+				"bgcolor_override"	"Transparent"
 				"skip_autoresize"	"1"
 				"autoresize"		"0"
 				
-				//
-				// All the controls below get laid out off of the item name label's position and the break sizes defined at the top of this file
-				//
 				"ItemLevelInfoLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -182,7 +179,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"RestrictionsLabel"
 				{
@@ -198,8 +195,8 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"200 80 60 255"
-				}		
+					"fgcolor"		"LightRed"
+				}
 				
 				"RestrictionsTextLabel"
 				{
@@ -215,8 +212,8 @@
 					"visible"		"0"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"200 80 60 255"
-				}		
+					"fgcolor"		"LightRed"
+				}
 				
 				"UsedByLabel"
 				{
@@ -233,7 +230,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"UsedByTextLabel"
 				{
@@ -249,7 +246,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
+				}
 				
 				"SlotLabel"
 				{
@@ -266,7 +263,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"SlotTextLabel"
 				{
@@ -282,13 +279,13 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
+				}
 				
 				"PriceLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"PriceLabel"
-					"font"			"HudFontMediumSmallBold"
+					"font"			"CodeBold14"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"25"
@@ -314,7 +311,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"labeltext"		"%armory_text%"
-				}			
+				}
 				
 				"AttributesLabel"
 				{
@@ -329,7 +326,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
+				}
 				
 				"ItemWikiPageButton"
 				{
@@ -344,14 +341,14 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"HudFontSmallestBold"
+					"font"			"CodeBold12"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
-				}		
+				}
 				
 				"TradableLabel"
 				{
@@ -368,7 +365,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"TradableTextLabel"
 				{
@@ -384,7 +381,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
+				}
 				
 				"GiftableLabel"
 				{
@@ -401,7 +398,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"GiftableTextLabel"
 				{
@@ -417,7 +414,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
+				}
 				
 				"NameableLabel"
 				{
@@ -434,7 +431,7 @@
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"NameableTextLabel"
 				{
@@ -450,35 +447,35 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-				}		
-
+				}
+				
 				"CraftableLabel"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"CraftableLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Craftable"
-					"textAlignment"		"north-west"
+					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
-					"autoResize"		"0"
+					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
 					"fgcolor"		"DullWhite"
-				}		
+				}
 				
 				"CraftableTextLabel"
 				{
-					"ControlName"		"CExLabel"
+					"ControlName"	"CExLabel"
 					"fieldName"		"CraftableTextLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%craftable%"
-					"textAlignment"		"north-west"
+					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
-					"autoResize"		"0"
+					"autoResize"	"0"
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
@@ -492,7 +489,6 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
 		"xpos"			"c-230"
 		"ypos"			"c-132"
 		"zpos"			"1"
@@ -502,11 +498,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
 		"render_texture"	"0"
 		"fov"			"40"
 		"allow_rot"		"1"
-
 		"paintbackground" "1"		
 		"paintbackgroundenabled" "1"
 		"bgcolor_override" "255 255 255 0"
@@ -514,7 +508,6 @@
 		"model"
 		{
 			"force_pos"	"1"
-
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
@@ -525,13 +518,12 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
 			"modelname"		""
 		}
 	}
-		
+	
 	"PreviewItemModelPanel"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"PreviewItemModelPanel"
 		"xpos"			"c-230"
@@ -542,7 +534,6 @@
 		"visible"		"1"
 		"paintbackground"	"0"
 		"paintborder"	"0"
-		
 		"model_xpos"	"10"
 		"model_ypos"	"10"
 		"model_wide"	"200"
@@ -551,7 +542,6 @@
 		"attrib_only"	"0"
 		"model_only"	"1"
 		"paint_icon_hide"	"0"
-		
 		"text_ypos"		"10"
 		
 		"itemmodelpanel"
@@ -565,16 +555,15 @@
 	"ItemIcon1"
 	{
 		"ControlName"	"CStorePreviewItemIcon"
-		"fieldName"		"ItemIcon1"
-		
+		"fieldName"		"ItemIcon1"	
 		"xpos"			"c-215"
 		"ypos"			"c56"
 		"zpos"			"13"
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 		
@@ -590,16 +579,14 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "Grey"
 		}
 		
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
-			
+			"paintborder"	"0"	
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -612,6 +599,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -620,15 +608,14 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon2"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 		
@@ -644,16 +631,14 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "Grey"
 		}
 		
 		"itempanel"
 		{
-			"fieldName"		"itempanel"
-			
+			"fieldName"		"itempanel"	
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -666,6 +651,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -674,15 +660,14 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon3"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 		
@@ -698,16 +683,14 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "Grey"
 		}
 		
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -720,6 +703,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -728,15 +712,14 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon4"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 		
@@ -752,16 +735,14 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "Grey"
 		}
 		
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -774,6 +755,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -782,15 +764,14 @@
 	{
 		"ControlName"	"CStorePreviewItemIcon"
 		"fieldName"		"ItemIcon5"
-		
 		"xpos"			"20"
 		"ypos"			"225"
 		"zpos"			"13"
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
 		
@@ -806,16 +787,14 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "Grey"
 		}
 		
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
-			
 			"model_xpos"	"1"
 			"model_ypos"	"2"
 			"model_wide"	"28"
@@ -828,6 +807,7 @@
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
+				"inventory_image_type"	"1"
 				"allow_rot"				"0"
 			}
 		}
@@ -844,8 +824,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -860,8 +840,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -876,8 +856,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -892,8 +872,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -908,8 +888,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -924,8 +904,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor" "TextColor"
+		"panel_bgcolor_mouseover" "White"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
 	}
@@ -945,7 +925,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -956,7 +936,7 @@
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
-	}		
+	}
 	
 	"IconsMoveRightButton"
 	{
@@ -973,7 +953,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -984,7 +964,7 @@
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
-	}	
+	}
 	
 	"ClassUsageMouseoverLabel"
 	{
@@ -1001,7 +981,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"Transparent"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
@@ -1024,7 +1004,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"<"
-		"font"			"HudFontBiggerBold"
+		"font"			"CodeBold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1053,7 +1033,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		">"
-		"font"			"HudFontBiggerBold"
+		"font"			"CodeBold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1065,8 +1045,8 @@
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
 		"button_activation_type"	"0"
-	}	
-				
+	}
+	
 	"NextWeaponButton"
 	{
 		"ControlName"	"CExButton"
@@ -1078,7 +1058,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_NextWeapon"
-		"font"			"HudFontSmallest"
+		"font"			"CodeBold12"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -1086,8 +1066,8 @@
 		"Command"		"next_weapon"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}					
-
+	}
+	
 	"GoFullscreenButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1111,9 +1091,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"gofullscreen"
-		
 		"paintbackground"	"0"
-		
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
 		
@@ -1130,9 +1108,9 @@
 			"enabled"		"1"
 			"image"			"store/store_fullscreen"
 			"scaleImage"	"1"
-		}				
+		}
 	}
-		
+	
 	"ZoomButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1156,9 +1134,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"zoom_toggle"
-		
-		"paintbackground"	"0"
-		
+		"paintbackground"	"0"	
 		"image_drawcolor"		"118 107 94 200"
 		"image_armedcolor"		"128 117 104 255"
 		
@@ -1175,7 +1151,7 @@
 			"enabled"		"1"
 			"image"			"store/store_zoom"
 			"scaleImage"	"1"
-		}				
+		}
 	}
 	
 	"TeamNavPanel"
@@ -1229,7 +1205,7 @@
 			
 			"image_drawcolor"		"255 255 255 77"
 			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"255 255 255 255"
+			"image_selectedcolor"	"White"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -1246,7 +1222,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
 		
 		"Buttons"
@@ -1261,7 +1237,7 @@
 				"SubImage"
 				{
 					"image"			"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -1273,7 +1249,7 @@
 				"SubImage"
 				{
 					"image"			"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
@@ -1302,7 +1278,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-
+	
 	"CycleTextLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1320,8 +1296,8 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-
+	}
+	
 	"NextStyleButton"
 	{
 		"ControlName"	"CExButton"
@@ -1341,11 +1317,8 @@
 		"Command"		"next_style"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
+	}
 
-	//---
-	// Hack - put these two labels off-screen, since we have cycle text to take the place of both of them
-	
 	"PaintNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1363,8 +1336,8 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-
+	}
+	
 	"StyleNameLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -1382,8 +1355,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	}		
-	
+	}
 	//---
 	
 	"CloseButton"
@@ -1409,16 +1381,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
-		
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "Blank"
 		"armedFgColor_override" "Blank"
 		"depressedFgColor_override" "Blank"
-		
 		"image_drawcolor"	"White"
 		"image_armedcolor"	"255 0 0 255"
-
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -1430,11 +1400,11 @@
 			"tall"			"9"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/buttons/x"
+			"image"			"replay/thumbnails/close"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}
-	}		
+	}
 	
 	"BackButton"
 	{
@@ -1450,7 +1420,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1458,8 +1428,8 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
-	}		
+		"fgcolor"			"White"
+	}
 	
 	"TryItOutButton"
 	{
@@ -1484,13 +1454,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
-	}	
+	}
 	
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c25"
+		"xpos"			"c40"
 		"ypos"			"c103"
 		"zpos"			"2"
 		"wide"			"160"
@@ -1500,7 +1470,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%storeaddtocart%"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1508,10 +1478,7 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		"fgcolor"			"White"
 	}
 	
 	"mouseoveritempanel"
@@ -1523,22 +1490,18 @@
 		"wide"			"200"
 		"tall"			"150"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"bgcolor_override"		"Transparent"
+		"noitem_textcolor"		"TextColor"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-
 		"text_center_x"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-
 		"model_ypos"	"15"
 		"model_wide"	"150"
 		"model_tall"	"100"
-
 		"hide_collection_panel" "1"
 		"model_center_x"	"1"
-
 		"name_only"			"1"
 	}
 }

@@ -19,12 +19,11 @@
 		"bgcolor_override"				"DarkGrey"
 		"infocus_bgcolor_override" 		"DarkGrey"
 		"outoffocus_bgcolor_override"	"DarkGrey"
-		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
-
+		
 		"modelpanelskv"	
 		{
 			"PaintBackgroundType"	"0"
@@ -83,11 +82,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"CodeBold20"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"30"
+		"ypos"			"50"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -101,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemFoundMethodLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"CodeBold14"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -117,26 +116,27 @@
 	
 	"ItemCountLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"ItemCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeBold14"
 		"labelText"		"#Item"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
-		"ypos"			"115"
+		"ypos"			"110"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"10"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"SelectedItemNumberLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"CodeBold14"
 		"labelText"		"#SelectedItemNumber"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -165,7 +165,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#NextItem"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -173,6 +173,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	
 	"PrevButton"
 	{
 		"ControlName"	"CExButton"
@@ -188,7 +189,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#PreviousItem"
-		"font"			"HudFontSmallestBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -212,7 +213,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CloseItemPanel"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -221,6 +222,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+	
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -236,7 +238,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%loadouttext%"
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -260,7 +262,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"HudFontSmallBold"
+		"font"			"CodeBold14"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -268,11 +270,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "117 107 94 255"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "117 107 94 255"
-			
-		"image_drawcolor"	"White"		
+		"defaultBgColor_override" "TextColor"
+		"armedBgColor_override" "TFOrange"
+		"depressedBgColor_override" "TextColor"
+		"image_drawcolor"	"White"	
 		"image_armedcolor"	"White"		
 		
 		"SubImage"
@@ -292,6 +293,7 @@
 			"proportionaltoparent"	"1"
 		}				
 	}		
+	
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -327,11 +329,12 @@
 			"centerwrap"	"1"
 		}
 	}
+	
 	"DiscardedLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"CodeBold20"
 		"labelText"		"#Discarded"
 		"textAlignment"	"center"
 		"xpos"			"c-215"
@@ -343,8 +346,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"46 43 42 255"
+		"fgcolor_override" "LightRed"
+		"bgcolor_override"	"TanDarker"
 	}
 	
 	"ScoreEntry"

@@ -11,20 +11,24 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-
+	
 	"specgui" { }
-
+	
 	"topbar"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
+		"xpos"			"0"
+		"ypos"			"0"
 		"tall"			"0"
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
 	}
+	
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
@@ -36,23 +40,28 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	
 	"bottombarblank"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"bottombarblank"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
+		"xpos"			"0"
+		"ypos"			"r0"
 		"tall"			"0"
+		"wide"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
 	}
+	
 	"ReinforcementsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-180"
-		"ypos"			"0"
+		"xpos"			"c-300"
+		"ypos"			"50"
 		"wide"			"600"
 		"tall"			"18"
 		"autoResize"	"0"
@@ -60,27 +69,33 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"	"east"
-		"font"			"G_FontMedium_2"
+		"textAlignment"	"center"
+		"font"			"CodeLC15"
 	}
 
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"-3"
-		"ypos"			"0"
-		"wide"			"320"
-		"tall"			"30"
+		"xpos"			"c-190"
+		"ypos"			"95"
+		"wide"			"380"
+		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
+		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"G_FontSmall"
+		"font"			"LightGravity12"
+		"fgcolor"		"White"
 		"wrap"			"1"
 		"centerwrap"	"1"
+		
+		if_mvm
+		{
+			"visible"		"1"
+		}
 	}
 
 	"MapLabel"
@@ -88,33 +103,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"ClassOrTeamLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"SwitchCamModeKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 		
 	}
 	"SwitchCamModeLabel"
@@ -122,66 +122,36 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SwitchCamModeLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"CycleTargetFwdKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdKeyLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"CycleTargetFwdLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetFwdLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"CycleTargetRevKeyLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevKeyLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"CycleTargetRevLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTargetRevLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"TipLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TipLabel"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
 	}
 	"itempanel"
 	{
@@ -194,6 +164,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
+		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -211,13 +182,6 @@
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
-		"itemmodelpanel"
-		{
-			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "0"
-			"useparentbg"		"1"
-		}
-
 		"ItemBG"
 		{
 			"ControlName"	"ImagePanel"
@@ -233,9 +197,17 @@
 			"enabled"		"1"
 			"fillcolor"		"Hudblack"
 		}
-
+		
+		"itemmodelpanel"
+		{
+			"fieldName"		"itemmodelpanel"
+			"use_item_rendertarget" "0"
+			"useparentbg"	"1"
+			"inventory_image_type"	"1"
+		}
+		
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"DefaultSmall"

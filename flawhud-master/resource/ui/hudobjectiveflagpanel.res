@@ -2,22 +2,21 @@
 {	
 	"ObjectiveStatusFlagPanel"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"1"
-		"wide"				"f0"
-		"tall"				"480"
-		"visible"			"1"
-		"enabled"			"1"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ObjectiveStatusFlagPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
 		
-		"if_hybrid"
-		{
-			"zpos"			"-1"
+		"if_hybrid" {
+			"zpos"		"-1"
 		}
 	}
-
+	
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -31,18 +30,15 @@
 		"enabled"		"1"
 		"fillcolor"		"Blue"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -60,22 +56,19 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkBlue"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
-
+	
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -89,18 +82,15 @@
 		"enabled"		"1"
 		"fillcolor"		"Red"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 		
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 		
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
@@ -118,50 +108,24 @@
 		"enabled"		"1"
 		"fillcolor"		"DarkRed"
 		
-		"if_hybrid"
-		{
+		"if_hybrid" {
 			"visible"	"0"
 		}
 
-		"if_mvm"
-		{
+		"if_mvm" {
 			"visible"	"0"
 		}
 
-		"if_specialdelivery"
-		{
+		"if_specialdelivery" {
 			"visible"	"0"
 		}
 	}
-		
+	
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"280"
-		"tall"			"80"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_bg_outline"
-		"scaleImage"	"1"	
-		
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
 	}
 
 	"BlueScore"
@@ -177,9 +141,9 @@
 		"enabled"		"1"
 		"textAlignment"	"east"
 		"labelText"		"%bluescore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"White"
-		
+
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -200,8 +164,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-79"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
@@ -209,8 +173,12 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"BlueScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
 		"if_hybrid"
 		{
@@ -241,7 +209,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"G_FontMedium"
+		"font"			"CodeBold22"
 		"fgcolor"		"White"	
 		
 		"if_hybrid"
@@ -259,13 +227,13 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c6"
-		"ypos"			"r29"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
@@ -273,8 +241,12 @@
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"%redscore%"
-		"font"			"G_FontMedium"
-		"fgcolor"		"ShadowBlack"	
+		"font"			"CodeBold22"
+		"fgcolor"		"ShadowBlack"
+		
+		"pin_to_sibling"		"RedScore"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 		
 		"if_hybrid"
 		{
@@ -312,26 +284,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/objectives_flagpanel_carried_red"
-		"scaleImage"	"1"
-		
-		"if_hybrid"
-		{
-			"ypos"		"r142"
-		}
-		
-		"if_specialdelivery"
-		{
-			"visible"	"r142"
-		}
 	}
-
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
@@ -364,8 +318,8 @@
 		{
 			"visible"	"0"
 		}
-	}	
-			
+	}
+	
 	"PlayingToBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -394,7 +348,7 @@
 			"visible"	"0"
 		}
 	}
-
+	
 	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -495,7 +449,7 @@
 			"ypos"		"r100"
 		}
 	}
-
+	
 	"PoisonIcon"
 	{
 		"ControlName"	"ImagePanel"

@@ -4,31 +4,14 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"0"
-		"ypos"			"10"
-		"wide"			"80"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"
+		"xpos"			"9999"
 	}
 	
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"64"
-		"tall"			"56"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"spellbook_book"
-		"scaleImage"	"1"		
+		"xpos"			"9999"
 	}
 	
 	"SpellIcon"
@@ -37,8 +20,6 @@
 		"fieldName"		"SpellIcon"
 		"xpos"			"16"
 		"ypos"			"15"
-		"xpos_minmode"	"16"
-		"ypos_minmode"	"35"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
@@ -79,35 +60,37 @@
 		"visible"		"0"
 	}
 	
-	"CountTextShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountTextShadow"
-		"font"			"LightGravity20"
-		"labelText"		"%counttext%"
-		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
-		"xpos_minmode"	"47"
-		"ypos_minmode"	"38"
-		"wide"			"20"
-		"tall"			"20"
-		"fgcolor"		"ShadowBlack"
-	}
-	
 	"CountText"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"LightGravity20"
+		"font"			"CodeBold20"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
+		"xpos"			"42"
 		"ypos"			"17"
-		"xpos_minmode"	"46"
-		"ypos_minmode"	"37"
+		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"19"
 		"fgcolor"		"White"
+	}
+	
+	"CountTextShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountTextShadow"
+		"font"			"CodeBold20"
+		"labelText"		"%counttext%"
+		"textAlignment" "center"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"0"
+		"wide"			"20"
+		"tall"			"20"
+		"fgcolor"		"ShadowBlack"
+
+		"pin_to_sibling"		"CountText"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
 	}
 }

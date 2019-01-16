@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"MedigunPanel"
-		"wide"			"129"
+		"wide"			"125"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -17,14 +17,14 @@
 		}
 	}
 
-	"PanelCoverLeft"
+	"PanelCover"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PanelCoverLeft"
+		"fieldName"		"PanelCover"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"18"
+		"wide"			"20"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -34,6 +34,9 @@
 
 		"player-dead" {
 			//"visible"	"0"
+		}
+		"team-red"  {
+			"xpos"			"105"
 		}
 	}
 
@@ -74,17 +77,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MedigunPanelChargeTypeIcon"
-		"xpos"			"1"
-		"ypos"			"1"
+		"xpos"			"2"
+		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"16"
-		"tall"			"16"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/uber"
 		
 		"team-red" {
+			"xpos"		"109"
 			"drawcolor"	"188 66 66 255"
 		}
 		"team-blu" {
@@ -98,9 +102,6 @@
 			}
 
 			"medigun-quickfix" {
-				//"ypos"	"0"
-				//"wide"	"17"
-				//"tall"	"17"
 				"image"		"replay/thumbnails/quickfix"
 			}
 
@@ -151,20 +152,20 @@
         "ControlName"	"VariableLabel"
         "fieldName"		"MedigunPanelChargeLabel"
         "xpos"			"98"
-        "ypos"			"3"
+        "ypos"			"2"
         "zpos"			"2"
         "wide"			"28"
         "tall"			"14"
         "autoResize"	"1"
         "visible"		"1"
         "enabled"		"1"
-        "labelText"		"%charge%%"
+        "labelText"		"%charge%"
         "tabPosition"	"0"
-        "textAlignment"	"east"
+        "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"G_FontTiny"
-        "fgcolor"		"White"	//"89 196 31 255"
+        "font"			"CodeBold14"
+        "fgcolor"		"White"
 
         "medigun-vaccinator" {
             "labelText"	"%charges%"
@@ -173,6 +174,10 @@
         "player-dead" {
             "visible"	"0"
         }
+		"team-red" {
+			"xpos"		"4"
+			"textAlignment"	"west"
+		}
     }
 	"MedigunPanelChargeLabelShadow"
 	{
@@ -186,13 +191,13 @@
         "autoResize"	"1"
         "visible"		"1"
         "enabled"		"1"
-        "labelText"		"%charge%%"
+        "labelText"		"%charge%"
         "tabPosition"	"0"
-        "textAlignment"	"east"
+        "textAlignment"	"center"
         "dulltext"		"0"
         "brighttext"	"0"
-        "font"			"G_FontTiny"
-		"fgcolor_override"	"Black"
+        "font"			"CodeBold14"
+		"fgcolor_override"	"ShadowBlack"
 
 		"pin_to_sibling" 		"MedigunPanelChargeLabel"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -200,6 +205,9 @@
 
 		"player-dead" {
 			"visible"   "0"
+		}
+		"team-red" {
+			"textAlignment"	"west"
 		}
 	}
 
@@ -209,10 +217,10 @@
         "fieldName"			"MedigunPanelChargeMeter"
         "font"				"Default"
         "xpos"				"20"
-        "ypos"				"2"
+        "ypos"				"0"
         "zpos"				"2"
-        "wide"				"107"
-        "tall"				"15"
+        "wide"				"105"
+        "tall"				"16"
         "autoResize"		"0"
         "pinCorner"			"0"
         "visible"			"1"
@@ -220,8 +228,8 @@
         "textAlignment"		"Left"
         "dulltext"			"0"
         "brighttext"		"0"
-        "bgcolor_override"	"ProgressBackground"
-        "fgcolor_override" 	"Brown"	//"ProgressOffWhite"
+		"bgcolor_override"	"38 55 63 255"
+		"fgcolor_override"	"57 92 120 255"
         "direction"			"east"
         "variable"			"charge"
 
@@ -232,13 +240,19 @@
         "player-dead" {
             "visible"       "0"
         }
+		"team-red" {
+			"xpos"				"0"
+			"direction"			"west"
+			"bgcolor_override"	"89 24 23 255"
+			"fgcolor_override"	"157 49 47 255"
+		}
     }
 
 	"MedigunPanelNameLabel"
 	{
 		"ControlName"	"VariableLabel"
 		"fieldName"		"MedigunPanelNameLabel"
-		"xpos"			"23"
+		"xpos"			"24"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"200"
@@ -251,7 +265,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
+		"font"			"LightGravity11"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"	"1"
 
@@ -274,6 +288,9 @@
 		"player-dead" {
 			"visible"	"0"
 		}
+		"team-red" {
+			"xpos"		"63"
+		}
 	}
 	
 	"MedigunPanelNameLabelShadow"
@@ -293,8 +310,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"LightGravity12"
-		"fgcolor_override"		"Black"
+		"font"			"LightGravity11"
+		"fgcolor_override"		"ShadowBlack"
 		"proportionaltoparent"	"1"
 		
 		"pin_to_sibling" 		"MedigunPanelNameLabel"

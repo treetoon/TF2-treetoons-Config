@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c156"
+		"ypos"			"c136"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
@@ -69,7 +69,7 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"MenuShader"
 	}
 	
 	"ItemEffectMeterCount"
@@ -80,7 +80,7 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -91,16 +91,16 @@
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
 	}
-
-	"ItemEffectMeterCountBG"
+	
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountBG"
-		"xpos"					"1"
-		"ypos"					"1"
-		"zpos"					"2"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
 		"wide"					"150"
-		"tall"					"20"	
+		"tall"					"20"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -109,7 +109,11 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"LightGravity20"
 		"fgcolor"				"ShadowBlack"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

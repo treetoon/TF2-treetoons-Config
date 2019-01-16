@@ -12,7 +12,6 @@
 		"visible" 			"0"
 		"enabled" 			"0"
 		"labelText"			"i"
-		
 		"controlName"		"CExLabel"
 		"fieldName"	 		"KnucklesCrosses"
 		"zpos"				"0"
@@ -61,8 +60,8 @@
 		"fieldName"			"HudWeaponAmmo"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c92"
-		"ypos"				"c65"
+		"xpos"				"c93"
+		"ypos"				"c63"
 		"wide"				"150"
 		"tall"				"125"
 	}
@@ -85,6 +84,7 @@
 		"enabled"			"1"
 		"xpos"				"c-100"
 		"ypos"				"0"
+		"zpos"				"5"
 		"wide"				"200"
 		"tall"				"200"
 
@@ -97,10 +97,10 @@
 		"fieldName"			"HudItemEffectMeter"
 		"visible"			"1"
 		"enabled"			"1"
-		"xpos"				"c-75"
-		"ypos"				"c93"
-		"wide"				"150"
-		"tall"				"40"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"480"
 		"MeterFG"			"TanLight"
 		"MeterBG"			"Gray"
 	}
@@ -111,7 +111,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"xpos"				"0"
-		"ypos"				"c65"
+		"ypos"				"c45"
 		"wide"				"f0"
 		"tall"				"300"
 	}
@@ -180,15 +180,13 @@
 		"ypos"					"0"
 		"tall"					"480"
 		"RightMargin"			"0"
-		"RightMargin_hidef" 	"32"
-		"RightMargin_lodef" 	"38"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"SmallBoxWide"			"72"
 		"SmallBoxTall"			"54"
 		"PlusStyleBoxWide"		"90"
 		"PlusStyleBoxTall"		"63"
-		"PlusStyleExpandSelected""0.3"
+		"PlusStyleExpandSelected"	"0.3"
 		"LargeBoxWide"			"110"
 		"LargeBoxTall"			"77"
 		"BoxGap"				"4"
@@ -213,7 +211,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-50"
-		"ypos"					"c25"
+		"ypos"					"c15"
 		"wide"					"100"
 		"tall"  				"100"
 		"visible" 				"1"
@@ -225,7 +223,7 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-181"
-		"ypos"					"267"
+		"ypos"					"227"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -250,7 +248,7 @@
 		"fieldName" 			"DisguiseStatus"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"105"
+		"xpos"					"90"
 		"ypos"					"r38"
 		"wide"					"170"
 		"tall"					"38"
@@ -262,7 +260,7 @@
 		"visible" 				"0"
 		"enabled" 				"1"
 		"xpos"					"c-126"
-		"ypos"					"245"
+		"ypos"					"240"
 		"wide"	 				"200"
 		"tall"	 				"50"
 		"priority"				"40"
@@ -286,7 +284,7 @@
 		"visible" 			"0"
 		"enabled" 			"1"
 		"xpos"				"c-126"
-		"ypos"				"275"
+		"ypos"				"265"
 		"wide"	 			"200"
 		"tall"	 			"50"
 		"priority"			"35"
@@ -310,7 +308,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"-15"
-		"ypos"					"50"
+		"ypos"					"80"
 		"wide"					"160"
 		"tall"					"480"
 		"PaintBackgroundType"	"2"
@@ -410,10 +408,8 @@
 		"tall"  				"50"
 		"visible" 				"1"
 		"enabled" 				"1"
-
 		"PaintBackgroundType"		"2"
 		"BackgroundOverrideColor"	"0 0 0 128"
-
 		"bar_xpos"				"50"
 		"bar_ypos"				"20"
 		"bar_height"			"8"
@@ -422,13 +418,11 @@
 		"speaker_ypos"			"8"
 		"count_xpos_from_right"	"10"
 		"count_ypos"			"8"
-
 		"icon_texture"			"vgui/hud/icon_commentary"
 		"icon_xpos"				"0"
 		"icon_ypos"				"0"		
 		"icon_width"			"40"
 		"icon_height"			"40"
-
 		"use_script_bgcolor"	"1"
 	}
 
@@ -459,17 +453,15 @@
 		"visible" 				"1"
 		"enabled" 				"1"
 		"xpos"	 				"r635"
-		"ypos"	 				"15"
+		"ypos"	 				"25"
 		"wide"	 				"628"
 		"tall"	 				"468"
-
 		"MaxDeathNotices" 		"4"
 		"IconScale"				"0.35"
 		"LineHeight"			"12"
 		"LineSpacing"			"0"
 		"CornerRadius"			"0"
 		"RightJustify"			"1"
-
 		"TextFont"				"AdFont_AdText"
 		"TeamBlue"				"Blue"
 		"TeamRed"				"Red"
@@ -541,7 +533,6 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 		"zpos" 				"1"
-
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
@@ -555,9 +546,8 @@
 		"wide"	 			"640"
 		"tall"	 			"480"
 		"zpos" 				"2"
-		"xpos"				"232"
+		"xpos"				"c-210"
 		"ypos"				"r88"
-
 		"TextFont"			"Default"
 		"ItemFont"			"Default"
 		"ItemFontPulsing"	"Default"
@@ -576,7 +566,6 @@
 		"GrowTime"			"0.25"
 		"ItemHiddenTime"	"0.2"
 		"ItemFadeInTime"	"0.15"
-
 		"ItemFadeOutTime"	"0.3"
 		"topoffset"			"0"
 	}
@@ -708,20 +697,19 @@
 		"wide" 				"145"
 		"tall" 				"400"
 		"item_wide"			"135"
-
-		"show_avatar"		"0"
+		"show_avatar"		"1"
+		"avatar_xpos"		"108"
+		"avatar_tall"		"17"
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
-
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
 		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
-
 		"text_xpos"			"33"
 	}
 
@@ -810,7 +798,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"
-		"ypos"			"r163"
+		"ypos"			"r160"
 		"wide"			"200"
 		"tall"			"152"
 		"zpos"			"4"
@@ -924,7 +912,20 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-125"
-		"ypos"			"c-35"
+		"ypos"			"c155"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"88"
+		"PaintBackgroundType"	"0"
+	}
+
+	"HudMenuEngyDestroy"
+	{
+		"fieldName" 	"HudMenuEngyDestroy"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c155"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"88"
@@ -937,22 +938,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-75"
-		"ypos"			"c-35"
+		"ypos"			"c155"
 		"zpos"			"1"
 		"wide"			"150"
-		"tall"			"88"
-		"PaintBackgroundType"	"0"
-	}
-
-	"HudMenuEngyDestroy"
-	{
-		"fieldName" 	"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-35"
-		"zpos"			"1"
-		"wide"			"250"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"
 	}
@@ -972,15 +960,13 @@
 
 	HudDemomanPipes
 	{
-		"fieldName"		"HudItemEffectMeter"
+		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c75"
-		"ypos"			"c137"
-		"wide"			"150"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
 	}
 
 	HudTeamGoal
@@ -1057,7 +1043,7 @@
 		"enabled"		"1"
 		"xpos"			"c-125"
 		"ypos"			"5"
-		"zpos"			"2"
+		"zpos"			"12"
 		"wide"			"250"
 		"tall"			"80"
 	}
@@ -1080,6 +1066,7 @@
 		"enabled"		"1"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"70"
 	}
@@ -1181,10 +1168,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"xpos"			"r200"
-		"ypos"			"300"
+		"ypos"			"rs1"
 		"zpos"			"10"
 		"wide"			"270"
-		"tall"			"180"
+		"tall"			"f0"
 	}
 
 	HudTFCrosshair
@@ -1315,7 +1302,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-35"
+		"ypos"			"c155"
 		"wide"			"470"
 		"tall"			"88"
 		"PaintBackgroundType"	"0"

@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-
+	
 	"Countdown"
 	{
 		"ControlName"	"CControlPointCountdown"
@@ -24,8 +24,8 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
-
+	}
+	
 	"CapPlayerImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -40,12 +40,12 @@
 		"image"			"capture_icon"
 		"scaleImage"	"1"
 	}
-
+	
 	"CapNumPlayers"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"LightGravity12"
+		"font"			"CodeLC12"
 		"xpos"			"11"
 		"ypos"			"1"
 		"zpos"			"4"
@@ -60,14 +60,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
-
+	
 	"OverlayImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OverlayImage"
 		"xpos"			"16"
 		"ypos"			"1"
-		"zpos"			"60"
+		"zpos"			"4"
 		"wide"			"9"
 		"tall"			"9"
 		"visible"		"0"
@@ -75,7 +75,7 @@
 		"image"			"capture_icon"
 		"scaleImage"	"1"
 	}
-
+	
 	"CPTimerLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -94,7 +94,7 @@
 		"wrap"			"0"
 		"font"			"ControlPointTimer"
 	}
-
+	
 	"CPTimerBG"
 	{
 		"ControlName"	"Panel"
@@ -106,7 +106,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../sprites/obj_icons/icon_obj_timer"	
-		"scaleImage"	"1"	
+		"image"			"../sprites/obj_icons/icon_obj_timer"
+		"scaleImage"	"1"
 	}
 }

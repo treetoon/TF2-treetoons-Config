@@ -32,7 +32,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"LightGravity10"
-		"fgcolor_override"		"White"
 	}
 
 	"ItemEffectMeter"

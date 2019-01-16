@@ -15,6 +15,22 @@
 		"proportionaltoparent"	"1"
 		"image"			""
 	}
+	
+	"PlayListDropShadow"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayListDropShadow"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"border"		"InnerShadowBorderThin"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+	}
 
 	"BGColor"
 	{
@@ -44,7 +60,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
+		"eatmouseinput"	"0"
 	}
 
 	"ModeButton"
@@ -149,8 +165,8 @@
 		"font"			"MMenuPlayListDesc"
 		"labelText"		"%desc_token%"
 		"textAlignment"	"north-west"
-		"xpos"			"rs1+1"
-		"ypos"			"19"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"1"
 		"wide"			"125"
 		"tall"			"40"
@@ -159,9 +175,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Black"
+		"fgcolor_override" "ShadowBlack"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
+		
+		"pin_to_sibling"		"DescLabel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"DisabledIcon"
@@ -183,16 +203,16 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-				
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "0 0 0 0"
-		"depressedBgColor_override" "0 0 0 0"
-				
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"235 226 202 255"
+
+		"defaultFgColor_override" "TanDarker"
+		"armedFgColor_override" "NeutralWhite"
+		"depressedFgColor_override" "TanDarker"
+		"defaultBgColor_override" "Transparent"
+		"armedBgColor_override" "Transparent"
+		"depressedBgColor_override" "Transparent"
+
+		"image_drawcolor"	"TextColor"
+		"image_armedcolor"	"NeutralWhite"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
